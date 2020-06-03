@@ -1,0 +1,33 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/Space-Taxi-1.csproj",
+    "projectName": "Space-Taxi-1",
+    "projectPath": "/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/Space-Taxi-1.csproj",
+    "outputPath": "/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net471"
+    ],
+    "frameworks": {
+      "net471": {
+        "projectReferences": {
+          "/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/DIKUArcade.csproj": {
+            "projectPath": "/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/DIKUArcade.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net471": {}
+  }
+}

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CD37379E-3357-4063-9C9B-0152E9D7C006}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpaceTaxiTest</RootNamespace>
+    <AssemblyName>SpaceTaxiTest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
+      <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CollisionTests\CollisionTests.cs" />
+    <Compile Include="EntitiesTests\CustomerTests.cs" />
+    <Compile Include="EntitiesTests\PlayerTests.cs" />
+    <Compile Include="LevelLoadingTests\LevelCreatorTest.cs" />
+    <Compile Include="LevelLoadingTests\ReaderTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateTests\GameRunningTests.cs" />
+    <Compile Include="StateTests\GameStateTypeTests.cs" />
+    <Compile Include="StateTests\StateMachineTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DIKUArcade\DIKUArcade.csproj">
+      <Project>{a1e4e4df-0967-4096-9e3c-fbc29b7d07dd}</Project>
+      <Name>DIKUArcade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Space-Taxi-1\Space-Taxi-1.csproj">
+      <Project>{7ad50c88-ac5d-4709-b915-d24fee1c8eff}</Project>
+      <Name>Space-Taxi-1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Images\aspargus-edge-bottom.png" />
+    <None Include="Assets\Images\aspargus-edge-left.png" />
+    <None Include="Assets\Images\aspargus-edge-right.png" />
+    <None Include="Assets\Images\aspargus-edge-top-left.png" />
+    <None Include="Assets\Images\aspargus-edge-top-right.png" />
+    <None Include="Assets\Images\aspargus-edge-top.png" />
+    <None Include="Assets\Images\aspargus-passage.png" />
+    <None Include="Assets\Images\aspargus-passage1.png" />
+    <None Include="Assets\Images\aspargus-passage2.png" />
+    <None Include="Assets\Images\CustomerStandLeft.png" />
+    <None Include="Assets\Images\CustomerStandRight.png" />
+    <None Include="Assets\Images\CustomerWalkLeft.png" />
+    <None Include="Assets\Images\CustomerWalkRight.png" />
+    <None Include="Assets\Images\deep-bronze-left-half-circle.png" />
+    <None Include="Assets\Images\deep-bronze-right-half-circle.png" />
+    <None Include="Assets\Images\deep-bronze-square.png" />
+    <None Include="Assets\Images\emperor-lower-left.png" />
+    <None Include="Assets\Images\emperor-lower-right.png" />
+    <None Include="Assets\Images\emperor-square.png" />
+    <None Include="Assets\Images\emperor-upper-left.png" />
+    <None Include="Assets\Images\emperor-upper-right.png" />
+    <None Include="Assets\Images\Explosion.png" />
+    <None Include="Assets\Images\green-lower-left.png" />
+    <None Include="Assets\Images\green-lower-right.png" />
+    <None Include="Assets\Images\green-square.png" />
+    <None Include="Assets\Images\green-upper-left.png" />
+    <None Include="Assets\Images\green-upper-right.png" />
+    <None Include="Assets\Images\ironstone-lower-left.png" />
+    <None Include="Assets\Images\ironstone-lower-right.png" />
+    <None Include="Assets\Images\ironstone-square.png" />
+    <None Include="Assets\Images\ironstone-upper-left.png" />
+    <None Include="Assets\Images\ironstone-upper-right.png" />
+    <None Include="Assets\Images\minsk-square.png" />
+    <None Include="Assets\Images\nandor-square.png" />
+    <None Include="Assets\Images\neptune-lower-left.png" />
+    <None Include="Assets\Images\neptune-lower-right.png" />
+    <None Include="Assets\Images\neptune-square.png" />
+    <None Include="Assets\Images\neptune-upper-left.png" />
+    <None Include="Assets\Images\neptune-upper-right.png" />
+    <None Include="Assets\Images\obstacle.png" />
+    <None Include="Assets\Images\olive-green-square.png" />
+    <None Include="Assets\Images\platform.png" />
+    <None Include="Assets\Images\purple-circle.png" />
+    <None Include="Assets\Images\salt-box-square.png" />
+    <None Include="Assets\Images\sanguine-brown-lower-left.png" />
+    <None Include="Assets\Images\sanguine-brown-lower-right.png" />
+    <None Include="Assets\Images\sanguine-brown-square.png" />
+    <None Include="Assets\Images\sanguine-brown-upper-left.png" />
+    <None Include="Assets\Images\sanguine-brown-upper-right.png" />
+    <None Include="Assets\Images\sanguine_brown-lower-left.png" />
+    <None Include="Assets\Images\sanguine_brown-lower-right.png" />
+    <None Include="Assets\Images\sanguine_brown-square.png" />
+    <None Include="Assets\Images\sanguine_brown-upper-left.png" />
+    <None Include="Assets\Images\sanguine_brown-upper-right.png" />
+    <None Include="Assets\Images\SpaceBackground.png" />
+    <None Include="Assets\Images\studio-lower-left.png" />
+    <None Include="Assets\Images\studio-lower-right.png" />
+    <None Include="Assets\Images\studio-square.png" />
+    <None Include="Assets\Images\studio-upper-left.png" />
+    <None Include="Assets\Images\studio-upper-right.png" />
+    <None Include="Assets\Images\tacha-square.png" />
+    <None Include="Assets\Images\tacha-upper-right.png" />
+    <None Include="Assets\Images\Taxi_Thrust_Back.png" />
+    <None Include="Assets\Images\Taxi_Thrust_Back_Right.png" />
+    <None Include="Assets\Images\Taxi_Thrust_Bottom.png" />
+    <None Include="Assets\Images\Taxi_Thrust_Bottom_Back.png" />
+    <None Include="Assets\Images\Taxi_Thrust_Bottom_Back_Right.png" />
+    <None Include="Assets\Images\Taxi_Thrust_Bottom_Right.png" />
+    <None Include="Assets\Images\Taxi_Thrust_None.png" />
+    <None Include="Assets\Images\Taxi_Thrust_None_Right.png" />
+    <None Include="Assets\Images\white-left-half-circle.png" />
+    <None Include="Assets\Images\white-lower-left.png" />
+    <None Include="Assets\Images\white-lower-right.png" />
+    <None Include="Assets\Images\white-right-half-circle.png" />
+    <None Include="Assets\Images\white-square.png" />
+    <None Include="Assets\Images\white-upper-left.png" />
+    <None Include="Assets\Images\white-upper-right.png" />
+    <None Include="Assets\Images\yellow-stick.png" />
+    <None Include="Levels\short-n-sweet.txt" />
+    <None Include="Levels\the-beach.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

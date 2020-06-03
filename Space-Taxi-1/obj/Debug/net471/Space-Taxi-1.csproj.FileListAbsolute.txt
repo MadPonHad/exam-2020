@@ -1,0 +1,14 @@
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/bin/Debug/net471/Space-Taxi-1.exe.config
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/bin/Debug/net471/Space-Taxi-1.exe
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/bin/Debug/net471/Space-Taxi-1.pdb
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/bin/Debug/net471/DIKUArcade.dll
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/bin/Debug/net471/OpenTK.dll
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/bin/Debug/net471/DIKUArcade.pdb
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/bin/Debug/net471/OpenTK.xml
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/Debug/net471/Space-Taxi-1.csprojResolveAssemblyReference.cache
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/Debug/net471/Space-Taxi-1.exe.config
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/Debug/net471/Space-Taxi-1.csproj.CoreCompileInputs.cache
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/Debug/net471/Space-Taxi-1.AssemblyInfoInputs.cache
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/Debug/net471/Space-Taxi-1.AssemblyInfo.cs
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/Debug/net471/Space-Taxi-1.exe
+/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/Debug/net471/Space-Taxi-1.pdb

@@ -1,0 +1,16 @@
+/Users/madshaderup/Downloads/DIKUArcade-master/DIKUArcade/bin/Debug/DIKUArcade.dll
+/Users/madshaderup/Downloads/DIKUArcade-master/DIKUArcade/bin/Debug/DIKUArcade.pdb
+/Users/madshaderup/Downloads/DIKUArcade-master/DIKUArcade/bin/Debug/OpenTK.dll
+/Users/madshaderup/Downloads/DIKUArcade-master/DIKUArcade/bin/Debug/OpenTK.xml
+/Users/madshaderup/Downloads/DIKUArcade-master/DIKUArcade/obj/Debug/DIKUArcade.csprojResolveAssemblyReference.cache
+/Users/madshaderup/Downloads/DIKUArcade-master/DIKUArcade/obj/Debug/DIKUArcade.csproj.CoreCompileInputs.cache
+/Users/madshaderup/Downloads/DIKUArcade-master/DIKUArcade/obj/Debug/DIKUArcade.dll
+/Users/madshaderup/Downloads/DIKUArcade-master/DIKUArcade/obj/Debug/DIKUArcade.pdb
+/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/bin/Debug/DIKUArcade.dll
+/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/bin/Debug/DIKUArcade.pdb
+/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/bin/Debug/OpenTK.dll
+/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/bin/Debug/OpenTK.xml
+/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/obj/Debug/DIKUArcade.csprojResolveAssemblyReference.cache
+/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/obj/Debug/DIKUArcade.csproj.CoreCompileInputs.cache
+/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/obj/Debug/DIKUArcade.dll
+/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/obj/Debug/DIKUArcade.pdb

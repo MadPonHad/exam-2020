@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "DIKUArcade/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DIKUArcade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DIKUArcade.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DIKUArcade/1.0.0": {
+      "type": "project",
+      "path": "../DIKUArcade/DIKUArcade.csproj",
+      "msbuildProject": "../DIKUArcade/DIKUArcade.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "DIKUArcade >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/madshaderup/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/Space-Taxi-1.csproj",
+      "projectName": "Space-Taxi-1",
+      "projectPath": "/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/Space-Taxi-1.csproj",
+      "packagesPath": "/Users/madshaderup/.nuget/packages/",
+      "outputPath": "/Users/madshaderup/Downloads/A8-Handout-v5/Space-Taxi-1/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/madshaderup/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {
+            "/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/DIKUArcade.csproj": {
+              "projectPath": "/Users/madshaderup/Downloads/A8-Handout-v5/DIKUArcade/DIKUArcade.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net471": {}
+    }
+  }
+}
