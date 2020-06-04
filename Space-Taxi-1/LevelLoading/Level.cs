@@ -1,10 +1,7 @@
-using System;
 using System.Collections.Generic;
 using DIKUArcade.Entities;
-using DIKUArcade.Graphics;
 using SpaceTaxi_1.Entities;
-using SpaceTaxi_1.SpaceTaxiStates;
-using SpaceTaxi_1.Utilities;
+
 
 
 namespace SpaceTaxi_1.LevelLoading {

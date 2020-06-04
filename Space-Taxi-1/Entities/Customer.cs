@@ -1,11 +1,8 @@
 
-using System.Collections.Generic;
-using System.IO;
-using System.Security.Cryptography.X509Certificates;
 using DIKUArcade.Entities;
 using DIKUArcade.Graphics;
 using DIKUArcade.Math;
-using SpaceTaxi_1.LevelLoading;
+
 using SpaceTaxi_1.Utilities;
 
 namespace SpaceTaxi_1.Entities {
